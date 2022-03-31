@@ -1,0 +1,7 @@
+¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
+
+--> Al estar en la rama "master", no se puede visualizar el archivo "tp2_1_2.c", ya que éste pertenece a la rama "Opcion_2".
+
+vuelva a ejecutar el comando gitk --all ¿Qué diferencias nota?
+
+--> Al ejecutar el comando por segunda vez, luego de haber creado el archivo de "Respuestas.txt" en la rama principal, se puede visualizar ese cambio, específicamente en el commi de la respectiva rama.
