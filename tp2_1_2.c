@@ -6,13 +6,18 @@
 int main()
 {
     int i;
-    int vt[N];
+    int vt[N], *p_vt;
+    p_vt = vt;
+
     srand(time(NULL));
+
     for (i = 0; i < N; i++)
     {
-        vt[i] = 1 + rand() % 100;
-        printf("%d ", vt[i]);
+        *(p_vt + i) = 1 + rand() % 100;
+        printf("%d ", *(p_vt + i));
+        p_vt++;
     }
+
     getchar();
     return 0;
 }
